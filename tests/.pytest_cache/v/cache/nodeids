@@ -1,0 +1,5 @@
+[
+  "test_logging.py::test_logging_user_can_login",
+  "test_logging.py::test_logging_error",
+  "test_logging.py::test_logging_need_help"
+]

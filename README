@@ -1,0 +1,16 @@
+WHAT FOLDER SHOULD YOU DOWNLOAD THE DRIVER
+
+* Make sure that you have python installed in your computer
+
+-- How to run tests in windows PowerShell --
+1. navigate to the project folder
+2. Create a virtual environment. Type > "python -m venv env"
+3. Activate the virtual environment:
+    a. Go to the scripts folder. Type > "cd ProjectFolder/env/Scripts"
+    b. Activate the virtual environment. Type >  ".\activate"
+4. Install the requirements:
+    a. Navigate project root folder
+    b. Type > "pip install -r requirements.txt"
+5. Run the tests using pytest:
+    a. Go back to the project root folder
+    b. Type > "python -m pytest ."
