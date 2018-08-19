@@ -1,7 +1,7 @@
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
-from framework.page_object.base_pages.hudlBasePage import BaseWebPage
+from framework.page_object.base_pages.baseHudlPage import BaseWebPage
 from selenium.webdriver.common.by import By
 
 class LogInPage(BaseWebPage):

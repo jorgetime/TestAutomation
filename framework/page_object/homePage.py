@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from framework.page_object.base_pages.hudlBasePage import HudlBasePage
+from framework.page_object.base_pages.baseHudlPage import HudlBasePage
 
 
 class HomePage(HudlBasePage):
