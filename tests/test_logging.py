@@ -26,5 +26,10 @@ def test_logging_need_help(given_a_browser):
     log_in_page.click_back_to_login()
     assert log_in_page.is_login_button_visible()
 
+# Other scenario
+def test_logging_remember_me_flow():
+    # Test for functionality of 'remember me' button
+    pass
+
 
 
