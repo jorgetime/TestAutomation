@@ -9,8 +9,8 @@ import os
 
 @pytest.fixture()
 def given_a_browser():
-    chrome_path = "C:\\Users\\Jorge\\PycharmProjects\\PycharmTutorial\\libs\\chromedriver.exe"
-    driver = webdriver.Chrome(chrome_path)
+    chrome_path = os.path.dirname(os.path.abspath(__file__)).rsplit("test", 1)[0] \
+                  + "framework\\driver\\chromedriver.exe"    driver = webdriver.Chrome(chrome_path)
     return driver
 
 @pytest.fixture()
